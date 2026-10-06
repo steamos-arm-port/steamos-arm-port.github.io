@@ -20,6 +20,7 @@ support, power tuning, its own app store and features built for handhelds.
 [Install the Unofficial Port](getting-started/install.md){ .md-button .md-button--primary }
 [Check device support](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
+[:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
 
 </div>
 
@@ -98,3 +99,9 @@ support, power tuning, its own app store and features built for handhelds.
 | Snapdragon 8 Gen 2 | AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO / S 1K / S 2K, Retroid Pocket 6 / Nova | :material-check-circle:{ .ok } Stable |
 
 See [Supported Devices](devices/index.md) for what works on each one.
+
+## Community
+
+Questions, help with installing, or just want to share how it runs? Join the
+[Discord](https://discord.gg/EP53nZYvg). Bugs go to
+[GitHub issues](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues).

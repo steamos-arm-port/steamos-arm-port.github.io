@@ -45,6 +45,9 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/hashtagbasit/SteamOS-ARM-Port
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/EP53nZYvg
+      name: Discord
     - icon: simple/kofi
       link: https://ko-fi.com/aimalb
     - icon: fontawesome/brands/paypal
