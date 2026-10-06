@@ -24,6 +24,10 @@ see its devices, their chip and any notes.
 
     Retroid Pocket 6 and Retroid Pocket Nova
 
+-   [**Lenovo**](lenovo.md) :material-flask-outline:{ .warn } Testing
+
+    Legion Y700 Gen 3 and Gen 4
+
 -   [**REDMAGIC**](redmagic.md)
 
     REDMAGIC 6, built from source
@@ -36,6 +40,7 @@ see its devices, their chip and any notes.
 |---|---|
 | :material-check-circle:{ .ok } Tested | Someone has run the current release on it and reported back |
 | :material-circle-outline:{ .muted } Untested | Supported by the image, but nobody has reported on it yet |
+| :material-flask-outline:{ .warn } Testing | New port, test images only, looking for people to try it |
 
 Device pages are added when a model needs its own steps. Own one of the
 untested devices? [Open an issue](https://github.com/hashtagbasit/SteamOS-ARM-Port/issues)
@@ -48,5 +53,6 @@ and say how it runs, even if everything works.
 | Snapdragon 8 Gen 3 (SM8650) | `steamos-arm-port-sm8650` |
 | Snapdragon 8 Gen 2 (SM8550) | `steamos-arm-port-sm8550` |
 | Snapdragon 8 Elite (SM8750) | `steamos-arm-port-sm8750` |
+| Lenovo tablets | Test images, ask on [Discord](https://discord.gg/EP53nZYvg) |
 
 Get them from [Downloads](../downloads.md).

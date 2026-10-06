@@ -11,9 +11,14 @@ together with its SHA-256 checksum.
 | AYN Odin 3, KONKR Pocket FIT Elite | `steamos-arm-port-sm8750-<version>.img` |
 | KONKR Pocket FIT, AYANEO Pocket S2 / S2 Pro | `steamos-arm-port-sm8650-<version>.img` |
 | AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO / S 1K / S 2K, Retroid Pocket 6 / Nova | `steamos-arm-port-sm8550-<version>.img` |
-{ .pick }
 
 [Latest release](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases/latest){ .md-button .md-button--primary }
+
+## Lenovo Tablets
+
+The Lenovo Legion Y700 Gen 3 and Gen 4 builds are still being tested, so
+they aren't on the releases page yet. Ask on [Discord](https://discord.gg/EP53nZYvg)
+if you want to try one, and read the [Lenovo page](devices/lenovo.md) first.
 
 ## Update Files
 

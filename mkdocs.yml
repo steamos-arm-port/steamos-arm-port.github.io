@@ -1,4 +1,4 @@
-site_name: Unofficial SteamOS ARM Port
+site_name: SteamOS ARM Port
 site_url: https://steamos-arm-port.github.io/
 site_description: Unofficial community port of SteamOS to ARM handhelds
 repo_url: https://github.com/hashtagbasit/SteamOS-ARM-Port
@@ -41,6 +41,9 @@ theme:
 extra_css:
   - assets/site.css
 
+extra_javascript:
+  - assets/site.js
+
 extra:
   social:
     - icon: fontawesome/brands/github
@@ -77,6 +80,7 @@ nav:
           - Pocket DMG: devices/pocket-dmg.md
       - AYN: devices/ayn.md
       - KONKR: devices/konkr.md
+      - Lenovo: devices/lenovo.md
       - Retroid: devices/retroid.md
       - REDMAGIC: devices/redmagic.md
   - Getting Started:

@@ -61,3 +61,58 @@
 .hero__tag { display: inline-block; margin-top: .4rem; padding: .15rem .7rem; border-radius: 999px;
   font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
   color: #f5c46a; border: 1px solid rgba(245, 196, 106, .45); background: rgba(245, 196, 106, .08); }
+
+/* header: short name plus an "Unofficial" badge, so it fits on phones */
+.md-header__topic:first-child .md-ellipsis::after {
+  content: "Unofficial"; display: inline-block; vertical-align: .12em; margin-left: .45rem;
+  padding: .05rem .45rem; border-radius: 999px; font-size: .55rem; font-weight: 700;
+  letter-spacing: .08em; text-transform: uppercase; line-height: 1.4;
+  color: #f5c46a; border: 1px solid rgba(245, 196, 106, .45); background: rgba(245, 196, 106, .08);
+}
+[data-md-color-scheme="default"] .md-header__topic:first-child .md-ellipsis::after {
+  color: #fff3d6; border-color: rgba(255, 243, 214, .6); background: rgba(255, 255, 255, .12);
+}
+
+/* chip cards on the home page */
+.md-typeset .grid.cards.chips > ul > li { padding: .9rem 1rem; }
+.md-typeset .grid.cards.chips p { margin: .3rem 0 0; }
+.md-typeset .grid.cards.chips p:first-child { margin-top: 0; }
+
+/* phones */
+@media (max-width: 600px) {
+  .md-header__title { margin-left: .4rem; margin-right: .2rem; }
+  .md-header__topic:first-child .md-ellipsis::after { display: none; }
+  .hero { padding: 1.4rem 0 .6rem; }
+  .hero::before { inset: 0 0 auto; height: 240px; }
+  .hero__mark { width: 56px; }
+  .md-typeset .hero h1 { font-size: 1.85rem; line-height: 1.15; }
+  .md-typeset .hero h2 { font-size: .95rem; margin: .4rem 0 .7rem; }
+  .md-typeset .hero h1 { margin-bottom: 0; }
+  .hero p { font-size: .8rem; }
+  .hero__buttons, .md-typeset .hero > p:has(.md-button) {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: .45rem; }
+  .md-typeset .hero .md-button { margin: 0; padding: .6em .4em; font-size: .72rem; text-align: center; }
+  .md-typeset .hero .md-button--primary { grid-column: 1 / -1; }
+  .md-typeset ul.features { grid-template-columns: 1fr; gap: .6rem; }
+  .md-typeset ul.features > li { padding: .8rem .9rem; }
+}
+
+/* no permalink icons in the hero (they wrapped under the title on phones) */
+.md-typeset .hero .headerlink { display: none; }
+.md-typeset .hero p { margin-top: .5rem; }
+
+/* phones: tables with 3+ columns become one card per row */
+@media (max-width: 600px) {
+  .md-typeset .md-typeset__table { display: block; padding: 0; }
+  .md-typeset .md-typeset__scrollwrap { overflow: visible; margin: 0; }
+  .md-typeset table.stack { display: block; border: 0; font-size: .75rem; }
+  .md-typeset table.stack thead { display: none; }
+  .md-typeset table.stack tbody, .md-typeset table.stack tr { display: block; }
+  .md-typeset table.stack tr { margin: 0 0 .6rem; padding: .55rem .8rem; border-radius: 12px;
+    border: 1px solid var(--port-edge); background: linear-gradient(160deg, var(--port-glow), transparent 75%); }
+  .md-typeset table.stack td { display: block; position: relative; padding: .2rem 0 .2rem 5.2rem; border: 0; }
+  .md-typeset table.stack td::before { content: attr(data-label); position: absolute; left: 0; top: .2rem;
+    width: 4.8rem; font-weight: 600; opacity: .6; }
+  .md-typeset table.stack td:first-child { font-weight: 700; font-size: .8rem; padding-left: 0; }
+  .md-typeset table.stack td:first-child::before { display: none; }
+}

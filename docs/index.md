@@ -18,7 +18,7 @@ Brings a SteamOS experience to ARM gaming handhelds, with full hardware
 support, power tuning, its own app store and features built for handhelds.
 
 [Install the Unofficial Port](getting-started/install.md){ .md-button .md-button--primary }
-[Check device support](devices/index.md){ .md-button }
+[Devices](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
 [:fontawesome-brands-discord: Discord](https://discord.gg/EP53nZYvg){ .md-button }
 
@@ -90,13 +90,29 @@ support, power tuning, its own app store and features built for handhelds.
   </li>
 </ul>
 
-## Supported Chips
+## Supported Devices
 
-| Chip | Devices | Status |
-|---|---|---|
-| Snapdragon 8 Elite | AYN Odin 3, KONKR Pocket FIT Elite | :material-check-circle:{ .ok } Stable |
-| Snapdragon 8 Gen 3 | KONKR Pocket FIT, AYANEO Pocket S2 / S2 Pro | :material-check-circle:{ .ok } Stable |
-| Snapdragon 8 Gen 2 | AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO / S 1K / S 2K, Retroid Pocket 6 / Nova | :material-check-circle:{ .ok } Stable |
+<div class="grid cards chips" markdown>
+
+-   :material-check-circle:{ .ok } **Snapdragon 8 Elite** · Stable
+
+    AYN Odin 3, KONKR Pocket FIT Elite
+
+-   :material-check-circle:{ .ok } **Snapdragon 8 Gen 3** · Stable
+
+    KONKR Pocket FIT, AYANEO Pocket S2 / S2 Pro
+
+-   :material-check-circle:{ .ok } **Snapdragon 8 Gen 2** · Stable
+
+    AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO /
+    S 1K / S 2K, Retroid Pocket 6 / Nova
+
+-   :material-flask-outline:{ .warn } **Lenovo tablets** · Testing
+
+    Lenovo Legion Y700 Gen 3 and Gen 4. Got one?
+    [Help test it](devices/lenovo.md)
+
+</div>
 
 See [Supported Devices](devices/index.md) for what works on each one.
 
