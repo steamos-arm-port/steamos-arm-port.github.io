@@ -1,0 +1,86 @@
+site_name: SteamOS ARM Port
+site_url: https://steamos-arm-port.github.io/
+site_description: Unofficial community port of SteamOS from the Steam Frame to ARM handhelds
+repo_url: https://github.com/hashtagbasit/SteamOS-ARM-Port
+repo_name: hashtagbasit/SteamOS-ARM-Port
+edit_uri: ""
+copyright: >-
+  Unofficial community project, not affiliated with or endorsed by Valve.
+  Steam, SteamOS and Steam Frame are trademarks of Valve Corporation.
+
+theme:
+  name: material
+  logo: assets/mark.svg
+  favicon: assets/mark.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle: { icon: material/weather-sunny, name: Light mode }
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle: { icon: material/weather-night, name: Dark mode }
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - assets/site.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/hashtagbasit/SteamOS-ARM-Port
+    - icon: simple/kofi
+      link: https://ko-fi.com/aimalb
+    - icon: fontawesome/brands/paypal
+      link: https://paypal.me/Basit2000
+  generator: false
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc: { permalink: true }
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed: { alternate_style: true }
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md
+  - Downloads: downloads.md
+  - Getting Started:
+      - Supported Devices: getting-started/devices.md
+      - Flash to a microSD Card: getting-started/install.md
+      - Flash the ROCKNIX ABL: getting-started/abl.md
+      - Install to Internal Storage: getting-started/internal-storage.md
+  - Using SteamOS ARM Port:
+      - Updates: using/updates.md
+      - Loadout: using/loadout.md
+      - PC Games: using/pc-games.md
+      - Frame Generation: using/frame-generation.md
+      - Android Apps: using/android-apps.md
+      - Dual Screen: using/bottom-screen.md
+      - Performance and SSH: using/tips.md
+  - Help:
+      - Known Issues: help/known-issues.md
+      - Troubleshooting: help/troubleshooting.md
+      - FAQ: help/faq.md
+  - Support the Project: support.md

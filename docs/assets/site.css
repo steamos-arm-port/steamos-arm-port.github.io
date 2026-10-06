@@ -1,0 +1,57 @@
+:root {
+  --md-primary-fg-color: #7c5cf0;
+  --md-primary-fg-color--light: #a78bfa;
+  --md-primary-fg-color--dark: #5b3fd1;
+  --md-accent-fg-color: #a78bfa;
+  --port-glow: rgba(124, 92, 240, .16);
+  --port-edge: rgba(167, 139, 250, .24);
+}
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color: #0b0f14;
+  --md-default-bg-color--light: #131a22;
+  --md-code-bg-color: #131a22;
+  --md-typeset-a-color: #c4b5fd;
+}
+[data-md-color-scheme="slate"] .md-header,
+[data-md-color-scheme="slate"] .md-tabs { background-color: #0f141b; }
+
+/* hero */
+.hero { text-align: center; padding: 3rem 0 1.6rem; position: relative; }
+.hero::before { content: ""; position: absolute; inset: 0 10% auto; height: 320px; z-index: -1;
+  background: radial-gradient(50% 60% at 50% 30%, var(--port-glow), transparent 70%); }
+.hero__mark { width: 96px; }
+.md-typeset .hero h1 { font-size: 2.7rem; font-weight: 800; margin: .5rem 0 0; letter-spacing: -.6px; color: inherit; }
+.md-typeset .hero h2 { font-size: 1.2rem; font-weight: 500; margin: .3rem 0 1rem; opacity: .9; }
+.hero p { max-width: 640px; margin: 0 auto 1.4rem; opacity: .85; }
+.md-typeset .hero .md-button { margin: .25rem; }
+
+/* feature cards */
+.md-typeset ul.features { list-style: none; margin: 1.6rem 0; padding: 0;
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: .9rem; }
+.md-typeset ul.features > li { margin: 0; display: flex; gap: .8rem; align-items: flex-start;
+  padding: 1rem 1.1rem; border-radius: 14px; border: 1px solid var(--port-edge);
+  background: linear-gradient(160deg, var(--port-glow), transparent 75%); }
+.features__icon { font-size: 1.5rem; line-height: 1; color: var(--md-primary-fg-color--light); }
+.md-typeset ul.features p { margin: .25rem 0 0; font-size: .8rem; opacity: .85; }
+
+/* status */
+.md-typeset .ok { color: #6ee7b7; }
+.md-typeset .warn { color: #f5c46a; }
+
+/* image picker on Downloads */
+.md-typeset .pick td:first-child { font-weight: 600; white-space: nowrap; }
+
+.md-typeset .features__icon .twemoji, .md-typeset .features__icon svg { width: 1.7rem; height: 1.7rem; max-height: none; }
+.features__icon { flex-shrink: 0; padding-top: .1rem; }
+[data-md-color-scheme="slate"] .md-typeset .hero h1 { color: #f4f2ff; }
+[data-md-color-scheme="default"] .md-typeset .hero h1 { color: #17121f; }
+.hero__buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: .4rem; }
+@media (max-width: 600px) {
+  .md-typeset .hero h1 { font-size: 2rem; }
+  .md-typeset .hero h2 { font-size: 1rem; }
+  .hero__mark { width: 72px; }
+}
+
+.md-typeset h1 { font-weight: 800; letter-spacing: -.4px; }
+[data-md-color-scheme="slate"] .md-typeset h1 { color: #f4f2ff; }
+.md-typeset h2 { font-weight: 700; }

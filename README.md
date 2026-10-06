@@ -1,0 +1,22 @@
+# steamos-arm-port.github.io
+
+The website for [SteamOS ARM Port](https://github.com/hashtagbasit/SteamOS-ARM-Port),
+built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/) and
+published to GitHub Pages on every push to `main`.
+
+## Editing
+
+Pages are Markdown files in `docs/`, the menu is `nav` in `mkdocs.yml`.
+
+```sh
+pip install "mkdocs<2" mkdocs-material
+mkdocs serve
+```
+
+Then open http://127.0.0.1:8000.
+
+## Publishing
+
+1. Put this repo at `steamos-arm-port/steamos-arm-port.github.io`.
+2. In the repo's **Settings > Pages**, set **Source** to **GitHub Actions**.
+3. Push to `main`. The site is live at https://steamos-arm-port.github.io a minute later.
