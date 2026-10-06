@@ -11,18 +11,13 @@ helps too.
 
 ## Credits
 
-SteamOS ARM Port is built on the work of these projects:
+Thanks to these projects:
 
-- **Valve**: SteamOS, the Steam Frame build it starts from, FEX and Proton.
-- **ROCKNIX**: the kernel recipes, device trees, firmware and audio profiles for
-  every supported handheld, the MangoHud patches, and the ROCKNIX ABL.
-- **ArmadaOS**: the s2idle sleep patches for 8 Gen 2 and 8 Gen 3, fan while
-  charging, jack and codec fixes, and a reference for AYANEO buttons and the
-  Thor and Pocket DS panels.
-- **bylaws**: unaligned atomics emulation for x86 games (through ArmadaOS).
-- **PancakeTAS and xXJSONDeruloXx**: lsfg-vk and its Decky plugin.
-- **Heroic Games Launcher** and every emulator and app Loadout installs.
-- Everyone testing on their devices and reporting back.
+- **Valve**: SteamOS, FEX and Proton.
+- **ROCKNIX**: kernel and device support, and the ROCKNIX ABL.
+- **ArmadaOS**: a few kernel patches.
+- **lsfg-vk**, **Heroic** and the emulators and apps in Loadout.
+- Everyone testing and reporting back.
 
-The full list, with links and licenses, is in
+The full list is in
 [CREDITS.md](https://github.com/hashtagbasit/SteamOS-ARM-Port/blob/main/CREDITS.md).
