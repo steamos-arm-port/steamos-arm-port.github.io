@@ -13,7 +13,7 @@ helps too.
 
 Thanks to these projects:
 
-- **Valve**: SteamOS, FEX and Proton.
+- **SteamOS**, **FEX** and **Proton**.
 - **ROCKNIX**: kernel and device support, and the ROCKNIX ABL.
 - **ArmadaOS**: a few kernel patches.
 - **lsfg-vk**, **Heroic** and the emulators and apps in Loadout.

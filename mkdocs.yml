@@ -1,12 +1,12 @@
 site_name: SteamOS ARM Port
 site_url: https://steamos-arm-port.github.io/
-site_description: Unofficial community port of SteamOS from the Steam Frame to ARM handhelds
+site_description: Unofficial community port of SteamOS to ARM handhelds
 repo_url: https://github.com/hashtagbasit/SteamOS-ARM-Port
 repo_name: hashtagbasit/SteamOS-ARM-Port
 edit_uri: ""
 copyright: >-
   Unofficial community project, not affiliated with or endorsed by Valve.
-  Steam, SteamOS and Steam Frame are trademarks of Valve Corporation.
+  Steam and SteamOS are trademarks of Valve Corporation.
 
 theme:
   name: material

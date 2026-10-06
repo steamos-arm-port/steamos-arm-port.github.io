@@ -2,16 +2,15 @@
 
 ??? question "Is this made by Valve?"
 
-    No. SteamOS ARM Port is an unofficial community project. It uses the
-    SteamOS build Valve made for the Steam Frame, but Valve doesn't make,
-    support or endorse it. Please don't contact Valve about it.
+    No. SteamOS ARM Port is an unofficial community project and isn't
+    affiliated with Valve. Please don't contact Valve about it.
 
 ??? question "Is it the real SteamOS?"
 
-    Yes. Game Mode, the Steam client and the desktop are Valve's own, from the
-    Steam Frame build. What this project adds is the kernel and hardware
-    support for each handheld, power and fan tuning, and handheld features
-    like Loadout and the dual screen launcher.
+    Yes, with Game Mode, the Steam client and the desktop. On top of it the
+    port adds the kernel and hardware support for each handheld, power and
+    fan tuning, updates through Steam, Loadout, Android apps and the dual
+    screen launcher.
 
 ??? question "Does Android still work?"
 
@@ -20,7 +19,7 @@
 
 ??? question "Do Windows games run?"
 
-    Many do, through FEX and Steam's ARM64 Proton, like on the Steam Frame.
+    Many do, through FEX and ARM64 Proton.
     Games with anti-cheat that doesn't support Linux won't run.
 
 ??? question "How do I update?"

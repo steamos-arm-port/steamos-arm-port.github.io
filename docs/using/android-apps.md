@@ -2,9 +2,9 @@
 
 ## Overview
 
-Android apps run through Lepton, the Android layer Valve made for the Steam
-Frame, with the Google Play Store included. A **Google Play Store** title
-appears in the library after the first sign-in.
+SteamOS ARM Port can install and run Android apps, with the Google Play
+Store included. A **Google Play Store** title appears in the library after
+the first sign-in.
 
 Every app installed from the Play Store, or as an `.apk`, `.apkm`, `.xapk` or
 `.apks`, appears as its own title in the Steam library with its icon. Apps run
@@ -25,4 +25,5 @@ konkr-apk remove com.example.app
 !!! note
 
     Games whose anti-cheat blocks emulators won't run, and some apps may
-    still crash. The first launch downloads Lepton through Steam.
+    still crash. The first launch downloads the Android runtime, which takes a
+    few minutes.

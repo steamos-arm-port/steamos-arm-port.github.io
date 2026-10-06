@@ -10,11 +10,11 @@ hide:
 
 # SteamOS ARM Port
 
-## Valve's SteamOS, ported to ARM handhelds
+## SteamOS for Snapdragon handhelds
 
-SteamOS ARM Port takes the SteamOS build Valve made for the Steam Frame and
-brings it to Snapdragon gaming handhelds, with the hardware support, power
-tuning and handheld features it needs.
+An unofficial community port that brings SteamOS to ARM gaming handhelds,
+with full hardware support, power tuning, its own app store and features
+built for handhelds.
 
 [Install SteamOS ARM Port](getting-started/install.md){ .md-button .md-button--primary }
 [Check device support](devices/index.md){ .md-button }
@@ -24,18 +24,17 @@ tuning and handheld features it needs.
 
 !!! warning "Unofficial community project"
 
-    SteamOS ARM Port is a community port and is not made, supported or endorsed
-    by Valve. Steam, SteamOS and Steam Frame are trademarks of Valve
-    Corporation, used here only to describe what the port is based on.
-    Installing it replaces your device's bootloader, so read the install guide
-    and back up your data first.
+    SteamOS ARM Port is not affiliated with or endorsed by Valve. Steam and
+    SteamOS are trademarks of Valve Corporation. Installing it replaces your
+    device's bootloader, so read the install guide and back up your data
+    first.
 
 <ul class="features" role="list" markdown="1">
   <li markdown="1">
     <div class="features__icon" aria-hidden="true">:material-steam:</div>
     <div>
-      <strong>The Real SteamOS</strong>
-      <p>Valve's own Game Mode, Steam client and KDE desktop from the Steam Frame build, not a lookalike.</p>
+      <strong>Game Mode and Desktop</strong>
+      <p>The full SteamOS experience: Game Mode, the Steam client and a KDE desktop, running natively on ARM.</p>
     </div>
   </li>
   <li markdown="1">
@@ -84,7 +83,7 @@ tuning and handheld features it needs.
     <div class="features__icon" aria-hidden="true">:material-android:</div>
     <div>
       <strong>Android Apps</strong>
-      <p>The Play Store through Valve's Lepton, with every app as its own title in your library.</p>
+      <p>Install and run Android apps, Play Store included. Each one shows up in your library.</p>
     </div>
   </li>
 </ul>
