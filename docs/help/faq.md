@@ -2,13 +2,13 @@
 
 ??? question "Is this made by Valve?"
 
-    No. SteamOS ARM Port is an unofficial community project and isn't
+    No. This is an unofficial community port and isn't
     affiliated with Valve. Please don't contact Valve about it.
 
-??? question "Is it the real SteamOS?"
+??? question "What's in it?"
 
-    Yes, with Game Mode, the Steam client and the desktop. On top of it the
-    port adds the kernel and hardware support for each handheld, power and
+    Game Mode, the Steam client and the desktop. On top of that the port
+    adds the kernel and hardware support for each handheld, power and
     fan tuning, updates through Steam, Loadout, Android apps and the dual
     screen launcher.
 

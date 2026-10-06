@@ -4,7 +4,7 @@
 
 The ABL is the part of the bootloader that starts the operating system. The
 stock one only starts Android, so it is replaced with the
-[ROCKNIX ABL](https://github.com/ROCKNIX/abl), which starts SteamOS ARM Port
+[ROCKNIX ABL](https://github.com/ROCKNIX/abl), which starts the unofficial SteamOS ARM Port
 from the microSD card or internal storage and still starts Android from its
 menu. The ROCKNIX ABL is made by the ROCKNIX team and is licensed under the
 GPL-2.0. Every image carries a copy for its chip.

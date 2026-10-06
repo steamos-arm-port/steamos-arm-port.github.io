@@ -8,15 +8,16 @@ hide:
 
 ![](assets/mark.svg){ .hero__mark role="presentation" }
 
+<span class="hero__tag">Unofficial</span>
+
 # SteamOS ARM Port
 
-## SteamOS for Snapdragon handhelds
+## An unofficial community port for Snapdragon handhelds
 
-An unofficial community port that brings SteamOS to ARM gaming handhelds,
-with full hardware support, power tuning, its own app store and features
-built for handhelds.
+Brings a SteamOS experience to ARM gaming handhelds, with full hardware
+support, power tuning, its own app store and features built for handhelds.
 
-[Install SteamOS ARM Port](getting-started/install.md){ .md-button .md-button--primary }
+[Install the Unofficial Port](getting-started/install.md){ .md-button .md-button--primary }
 [Check device support](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
 
@@ -24,7 +25,7 @@ built for handhelds.
 
 !!! warning "Unofficial community project"
 
-    SteamOS ARM Port is not affiliated with or endorsed by Valve. Steam and
+    The unofficial SteamOS ARM Port is not affiliated with or endorsed by Valve. Steam and
     SteamOS are trademarks of Valve Corporation. Installing it replaces your
     device's bootloader, so read the install guide and back up your data
     first.
@@ -34,7 +35,7 @@ built for handhelds.
     <div class="features__icon" aria-hidden="true">:material-steam:</div>
     <div>
       <strong>Game Mode and Desktop</strong>
-      <p>The full SteamOS experience: Game Mode, the Steam client and a KDE desktop, running natively on ARM.</p>
+      <p>Game Mode, the Steam client and a KDE desktop, running natively on ARM.</p>
     </div>
   </li>
   <li markdown="1">

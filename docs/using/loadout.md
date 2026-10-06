@@ -2,7 +2,7 @@
 
 ## Overview
 
-Loadout is the store built into SteamOS ARM Port. It installs emulators, PC
+Loadout is the store built into the unofficial SteamOS ARM Port. It installs emulators, PC
 game stores and apps that are picked for your chip, and adds anything you
 have to your Steam library. Open it from **Quick Access > Loadout > Open
 Loadout**.

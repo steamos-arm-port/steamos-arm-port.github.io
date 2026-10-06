@@ -1,6 +1,6 @@
 # Downloads
 
-SteamOS ARM Port has one image per chip. Every release is on
+The unofficial SteamOS ARM Port has one image per chip. Every release is on
 [GitHub Releases](https://github.com/hashtagbasit/SteamOS-ARM-Port/releases)
 together with its SHA-256 checksum.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-SteamOS ARM Port updates through Steam's own update button, like a Steam
+The unofficial SteamOS ARM Port updates through Steam's own update button, like a Steam
 Deck. Updates download in the background and install on the next restart.
 Games, saves, accounts and Wi-Fi settings are kept.
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-SteamOS ARM Port ships one image per chip. The device is picked in the ROCKNIX
+The unofficial SteamOS ARM Port ships one image per chip. The device is picked in the ROCKNIX
 ABL menu on first boot, and the system sets itself up for it. Pick a maker to
 see its devices, their chip and any notes.
 

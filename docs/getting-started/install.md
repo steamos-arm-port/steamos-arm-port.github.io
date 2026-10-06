@@ -2,7 +2,7 @@
 
 ## Overview
 
-SteamOS ARM Port runs from a microSD card. Android stays on the device and
+The unofficial SteamOS ARM Port runs from a microSD card. Android stays on the device and
 can still be started from the ABL menu. Once it runs, the Pocket FIT and
 Pocket S2 can optionally be [installed to internal storage](internal-storage.md).
 

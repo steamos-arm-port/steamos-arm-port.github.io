@@ -56,3 +56,8 @@
 .md-typeset h1 { font-weight: 800; letter-spacing: -.4px; }
 [data-md-color-scheme="slate"] .md-typeset h1 { color: #f4f2ff; }
 .md-typeset h2 { font-weight: 700; }
+
+/* unofficial tag above the hero title */
+.hero__tag { display: inline-block; margin-top: .4rem; padding: .15rem .7rem; border-radius: 999px;
+  font-size: .7rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+  color: #f5c46a; border: 1px solid rgba(245, 196, 106, .45); background: rgba(245, 196, 106, .08); }

@@ -1,4 +1,4 @@
-site_name: SteamOS ARM Port
+site_name: Unofficial SteamOS ARM Port
 site_url: https://steamos-arm-port.github.io/
 site_description: Unofficial community port of SteamOS to ARM handhelds
 repo_url: https://github.com/hashtagbasit/SteamOS-ARM-Port
@@ -80,7 +80,7 @@ nav:
       - Flash to a microSD Card: getting-started/install.md
       - Flash the ROCKNIX ABL: getting-started/abl.md
       - Install to Internal Storage: getting-started/internal-storage.md
-  - Using SteamOS ARM Port:
+  - Using the Port:
       - Updates: using/updates.md
       - Loadout: using/loadout.md
       - PC Games: using/pc-games.md
@@ -92,4 +92,4 @@ nav:
       - Known Issues: help/known-issues.md
       - Troubleshooting: help/troubleshooting.md
       - FAQ: help/faq.md
-  - Support the Project: support.md
+  - Support: support.md
