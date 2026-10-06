@@ -37,6 +37,7 @@
 /* status */
 .md-typeset .ok { color: #6ee7b7; }
 .md-typeset .warn { color: #f5c46a; }
+.md-typeset .muted { color: #8b93a1; }
 
 /* image picker on Downloads */
 .md-typeset .pick td:first-child { font-weight: 600; white-space: nowrap; }

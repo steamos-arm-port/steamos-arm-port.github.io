@@ -17,7 +17,7 @@ brings it to Snapdragon gaming handhelds, with the hardware support, power
 tuning and handheld features it needs.
 
 [Install SteamOS ARM Port](getting-started/install.md){ .md-button .md-button--primary }
-[Check device support](getting-started/devices.md){ .md-button }
+[Check device support](devices/index.md){ .md-button }
 [Downloads](downloads.md){ .md-button }
 
 </div>
@@ -97,4 +97,4 @@ tuning and handheld features it needs.
 | Snapdragon 8 Gen 3 | KONKR Pocket FIT, AYANEO Pocket S2 / S2 Pro | :material-check-circle:{ .ok } Stable |
 | Snapdragon 8 Gen 2 | AYN Odin 2 / Mini / Portal / Thor, AYANEO Pocket ACE / DMG / DS / EVO / S 1K / S 2K, Retroid Pocket 6 / Nova | :material-check-circle:{ .ok } Stable |
 
-See [Supported Devices](getting-started/devices.md) for what works on each one.
+See [Supported Devices](devices/index.md) for what works on each one.

@@ -26,6 +26,11 @@ Pocket S2 can optionally be [installed to internal storage](internal-storage.md)
 4. Insert the card, then hold **Volume Down** while powering on to open the
    ABL menu.
 
+    !!! note
+
+        The AYANEO Pocket DMG has no Volume Down key, see
+        [its page](../devices/pocket-dmg.md).
+
 5. Choose **Set device model** and select your device, set the boot mode to
    **Linux**, and choose **START**.
 

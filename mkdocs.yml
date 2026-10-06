@@ -29,6 +29,7 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     - navigation.top
     - navigation.footer
     - search.suggest
@@ -66,8 +67,16 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Downloads: downloads.md
+  - Devices:
+      - Supported Devices: devices/index.md
+      - AYANEO:
+          - devices/ayaneo.md
+          - Pocket DMG: devices/pocket-dmg.md
+      - AYN: devices/ayn.md
+      - KONKR: devices/konkr.md
+      - Retroid: devices/retroid.md
+      - REDMAGIC: devices/redmagic.md
   - Getting Started:
-      - Supported Devices: getting-started/devices.md
       - Flash to a microSD Card: getting-started/install.md
       - Flash the ROCKNIX ABL: getting-started/abl.md
       - Install to Internal Storage: getting-started/internal-storage.md
